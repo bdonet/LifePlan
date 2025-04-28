@@ -1,32 +1,29 @@
 ```mermaid
 flowchart TD
-    ferreting[Build ferreting business]
-    game1[Publish The Dragon Tower]
-    games[Build video games]
-    bakery[Build bakery business]
-    urbanfarm[Farming in the City]
-    md([Master's Degree])
-    countryside[Buy Rural Land]
-    ruralfarm[Farming in the Country]
-    ruralhome[Build house in the Country]
-    phd([Doctoral Degree])
-    teach[Teach Classes]
-    marketing([Learn Marketing])
     entrepreneur([Learn Entrepreneurship])
-    health[Build health business]
+    -->marketing([Learn Marketing])
+    -->game1[Publish The Dragon Tower]
+    -->emergency[\Rebuild emergency fund/]
+    -->businesssavings[\Build lifeline fund/]
+    -->bakery[Build bakery business]
+    -->md([Master's Degree])
+    -->urbanfarm[Build urban farm business]
+    -->compost[Build composting business]
+    -->housesavings[\Build land fund/]
 
-    marketing
-    -->game1
-    -->entrepreneur
-    -->ferreting
-    -->md
-    -->bakery
-    -->urbanfarm
-    -->games
-    -->health
-    -->teach
-    -->countryside
-    -->ruralfarm
-    -->ruralhome
-    -->phd
+    md
+    -->ferreting[Build ferreting business]
+    -->housesavings
+
+    md
+    -->tori([Tori finishes college])
+    -->health[Build health business]
+    -->housesavings
+    
+    -->countryside[Buy rural land]
+    -->ruralhome[Build homestead on land]
+    -->games[Build video games]
+
+    ruralhome
+    -->teach[Teach Classes]
 ```
