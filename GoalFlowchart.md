@@ -6,6 +6,7 @@ flowchart TD
     -->emergency[\Rebuild emergency fund/]
     -->businesssavings[\Build lifeline fund/]
     -->bakery[Build bakery business]
+    -->thruhike1@{ shape: tri, label: "Appalachian Trail" }
     -->md([Master's Degree])
     -->urbanfarm[Build urban farm business]
     -->compost[Build composting business]
@@ -26,4 +27,8 @@ flowchart TD
 
     ruralhome
     -->teach[Teach Classes]
+
+    ruralhome
+    -->thruhike2@{ shape: tri, label: "Pacific Crest Trail" }
+    -->thruhike3@{ shape: tri, label: "Continental Divide Trail" }
 ```
